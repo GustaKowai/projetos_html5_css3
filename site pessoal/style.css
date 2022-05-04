@@ -1,12 +1,20 @@
 body{
-  background: rgb(1, 22, 6);
+  background-image: url("green_stars.jpg");
+  background-color: #050505;
+  height: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
   font-family:'Times New Roman', Times, serif;
   max-width: 900px;
   margin: auto;
 }
 
-#title, .subtitle, .post_title {
-  color: rgb(18, 212, 73);
+#title, .subtitle {
+  color: rgb(0, 255, 72);
+}
+.post_title{
+  color: black;
 }
 
 #title{
@@ -45,7 +53,7 @@ a{
 }
 
 .post{
-  background: #ccc;
+  background: rgba(204, 204, 204, 0.862);
   padding: 15px;
   border: 3px solid rgb(101, 101, 103);
   margin-bottom: 15px;
